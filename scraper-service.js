@@ -23,7 +23,7 @@ module.exports.covidscraper = function covidscraper() {
       const confirmedCases = strToInt($(td[2]).text());
       const recovered = strToInt($(td[3]).text());
       const deaths = strToInt($(td[4]).text());
-      if (index < tableRows - 2) {
+      if (index < tableRows - 3) {
         data.push({
           confirmedCases,
           deaths,
