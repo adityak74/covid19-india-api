@@ -2,7 +2,7 @@
 
 ### Deploying to lambda
 
-You need to setup your aws config before you can deploy to.
+You need to setup your aws config before you can deploy to AWS. 
 
 #### Install serverless from npm
 
